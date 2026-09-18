@@ -1,0 +1,1 @@
+SEC exam priorities target undisclosed fee transfers and expense shifting between related entities. If your spec development routes customer cash through the builder operating account, your legal protection is an illusion.

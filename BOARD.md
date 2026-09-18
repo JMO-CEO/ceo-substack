@@ -7,7 +7,7 @@ Read To Do Today before starting any work. Move the card when done.
 - [ ] Beta onboarding pipeline checks (separate track, not daily content)
 
 ## To Do Today
-- [ ] Daily draft YYYY-MM-DD: article + 5 Notes + visual set + packs + meta, due 7am Denver
+- [x] Daily draft 2026-09-18: article + 5 Notes + visual set + packs + meta, due 7am Denver
 
 ## Doing in Actions
 - (empty, run moves card here on start)
