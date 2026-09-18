@@ -18,7 +18,8 @@
 
 ## Pipeline facts
 - Public drafts repo: JMO-CEO/ceo-substack. Text model: google/gemini-3.5-flash-lite. Secret GEMINI_API_KEY must be exported as env GOOGLE_GENERATIVE_AI_API_KEY in the workflow, that is the exact name the Google provider reads. Zero image spend v1: code built SVG/PNG plus prompt packs.
-- Cloud pacing law: ONE subagent at a time, ONE tool per block, sleep 15 between phases. Free key allows about 5 requests per minute. Parallel bursts cause 429s plus interrupted streams plus the upstream Gemini model-turn 400 bug (opencode issues 45359, 47034, still open). Sequential survives, parallel dies.
+- Cloud runbook is SOLO, one session, Task tool disabled via subagent_depth 0. Six subagent sessions exceeded 30 min on free tier (run 6 proved it). Solo run with batched tool calls and max 2 websearches fits in 30. Subagent team stays for local runs only.
+- Cloud pacing law: batch independent calls per block to cut billed requests, never delegate, max 2 websearches per run, sleep 60 on 429 max twice. Free key allows about 5 requests per minute. The upstream Gemini model-turn 400 bug (opencode issues 45359, 47034, still open) strikes retried multi-session runs hardest.
 - Job timeout is 30 min (6 sequential phases need it, run 5 proved 15 is too short). Minutes are free on the public repo. PR step runs on always() so partial drafts are preserved instead of vanishing.
 - Daily folder: drafts/YYYY-MM-DD with article-draft.md, notes-3x.md, cover.svg, cover.png, image-prompt-pack.md, video-script-pack.md, meta.json.
 

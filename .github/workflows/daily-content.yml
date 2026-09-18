@@ -27,6 +27,9 @@ jobs:
         id: rundate
         run: echo "today=$(date +%F)" >> "$GITHUB_OUTPUT"
 
+      - name: Install image renderer
+        run: pip install --quiet Pillow
+
       - name: Run OpenCode content team
         uses: anomalyco/opencode/github@latest
         env:
@@ -37,11 +40,11 @@ jobs:
           model: google/gemini-3.5-flash-lite
           use_github_token: true
           prompt: |
-            You are the orchestrator for the daily Substack content pipeline in this repo.
+            Solo run in this repo, ONE session, never delegate, Task tool is disabled.
             Date for this run: ${{ steps.rundate.outputs.today }}. Use folder drafts/${{ steps.rundate.outputs.today }}.
-            Follow prompts/orchestrate.md exactly: research, ideate, create article plus 3 Notes plus visual set in parallel, then edit and write the 6-file folder drafts/YYYY-MM-DD with article-draft.md, notes-3x.md, cover.svg, cover.png, image-prompt-pack.md, video-script-pack.md, meta.json.
+            Follow prompts/orchestrate.md exactly, all six phases inline: angle, ideate, article, notes, visual, gate plus meta.
             Brand lock: Protest Guerrilla headlines only. Carter One and The Last Shuriken are banned. Black #000000, navy #0A0328, purple #7D12FF.
-            Fail loudly if any file is missing. Never push secrets. Work on the checked-out files; do not push directly.
+            Never push secrets. Work on the checked-out files; do not push directly. Partial files beat no files.
 
       - name: Open draft PR
         if: always()

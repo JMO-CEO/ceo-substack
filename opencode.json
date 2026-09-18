@@ -1,5 +1,6 @@
 {
   "$schema": "https://opencode.ai/config.json",
+  "subagent_depth": 0,
   "instructions": ["AGENTS.md", "MEMORY.md", "BOARD.md"],
   "permission": {
     "skill": {
