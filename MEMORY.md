@@ -26,3 +26,4 @@
 ## Corrections log
 - 2026-09-18: Carter One banned, Protest Guerrilla locked. Last Shuriken replaced in plans and design-architect.
 - 2026-09-18: Cloud workflow must set git identity (ceo-substack-bot) and persist checkout credentials, or agent commits and PR pushes die with ident unknown and git 128. Run 7 proved the agent writes files fine.
+- 2026-09-18: PIPELINE LIVE. Run 9 produced PR 1 with all 6 files plus meta. The opencode CLI pushes branch opencode/dispatch-* and opens the review PR itself, so no backup PR step is needed or wanted. Enable Actions read-write plus PR create permission in repo settings or delivery dies.
