@@ -21,9 +21,9 @@
 - Cloud runbook is SOLO, one session, Task tool disabled via subagent_depth 0. Six subagent sessions exceeded 30 min on free tier (run 6 proved it). Solo run with batched tool calls and max 2 websearches fits in 30. Subagent team stays for local runs only.
 - Cloud pacing law: batch independent calls per block to cut billed requests, never delegate, max 2 websearches per run, sleep 60 on 429 max twice. Free key allows about 5 requests per minute. The upstream Gemini model-turn 400 bug (opencode issues 45359, 47034, still open) strikes retried multi-session runs hardest.
 - Job timeout is 30 min (6 sequential phases need it, run 5 proved 15 is too short). Minutes are free on the public repo. PR step runs on always() so partial drafts are preserved instead of vanishing.
-- Daily folder: drafts/YYYY-MM-DD with article-draft.md, notes-3x.md, cover.svg, cover.png, image-prompt-pack.md, video-script-pack.md, meta.json.
+- Daily folder: drafts/YYYY-MM-DD with article-draft.md, note-1.md through note-5.md, cover.svg, cover.png, image-prompt-pack.md, video-script-pack.md, meta.json.
 
 ## Corrections log
 - 2026-09-18: Carter One banned, Protest Guerrilla locked. Last Shuriken replaced in plans and design-architect.
 - 2026-09-18: Cloud workflow must set git identity (ceo-substack-bot) and persist checkout credentials, or agent commits and PR pushes die with ident unknown and git 128. Run 7 proved the agent writes files fine.
-- 2026-09-18: PIPELINE LIVE. Run 9 produced PR 1 with all 6 files plus meta. The opencode CLI pushes branch opencode/dispatch-* and opens the review PR itself, so no backup PR step is needed or wanted. Enable Actions read-write plus PR create permission in repo settings or delivery dies.
+- 2026-09-18: PIPELINE LIVE. Run 9 produced PR 1 with all 10 content files plus meta. The opencode CLI pushes branch opencode/dispatch-* and opens the review PR itself, so no backup PR step is needed or wanted. Enable Actions read-write plus PR create permission in repo settings or delivery dies.
