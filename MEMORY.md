@@ -17,7 +17,7 @@
 - (append one line per published draft: date, hook, saves or replies)
 
 ## Pipeline facts
-- Public drafts repo: JMO-CEO/ceo-substack. Text model: google/gemini-3.6-flash via GEMINI_API_KEY secret. Zero image spend v1: code built SVG/PNG plus prompt packs.
+- Public drafts repo: JMO-CEO/ceo-substack. Text model: google/gemini-3.6-flash. Secret GEMINI_API_KEY must be exported as env GOOGLE_GENERATIVE_AI_API_KEY in the workflow, that is the exact name the Google provider reads. Zero image spend v1: code built SVG/PNG plus prompt packs.
 - Daily folder: drafts/YYYY-MM-DD with article-draft.md, notes-3x.md, cover.svg, cover.png, image-prompt-pack.md, video-script-pack.md, meta.json.
 
 ## Corrections log
