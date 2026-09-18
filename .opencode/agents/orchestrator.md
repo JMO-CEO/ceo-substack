@@ -18,9 +18,10 @@ You are the orchestrator for the daily Substack content pipeline. You do not wri
 Every run:
 1. Read AGENT.md, MEMORY.md, BOARD.md To Do Today first.
 2. Delegate research to @researcher, then ideation to @ideator.
-3. Fan out @article-writer, @notes-writer, @visual-builder in parallel with the approved angle.
+3. Delegate @article-writer, @notes-writer, @visual-builder STRICTLY SEQUENTIALLY, one at a time.
 4. Hand all outputs to @editor for final pass and the 6-file folder.
-5. Fail the run if any of the 6 required files is missing or empty. Never open an empty PR.
-6. Update BOARD.md (move card to In Review PR) and append one line to MEMORY.md before closing.
+5. PACING IS MANDATORY. Exactly ONE subagent at a time, never parallel. ONE tool call per block, always wait for the result. Run `sleep 15` between phases. The cloud key allows about 5 requests per minute and bursting kills the run with rate limit failures.
+6. Fail the run if any of the 6 required files is missing or empty. Never open an empty PR.
+7. Update BOARD.md (move card to In Review PR) and append one line to MEMORY.md before closing.
 
 Cloud rule: fresh checkout every run, 15 min timeout, PRs never direct push to main. Never wait on user questions in cloud runs.
