@@ -12,7 +12,7 @@ concurrency:
 jobs:
   draft:
     runs-on: ubuntu-latest
-    timeout-minutes: 15
+    timeout-minutes: 30
     permissions:
       contents: write
       pull-requests: write
@@ -44,6 +44,7 @@ jobs:
             Fail loudly if any file is missing. Never push secrets. Work on the checked-out files; do not push directly.
 
       - name: Open draft PR
+        if: always()
         uses: peter-evans/create-pull-request@v6
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
@@ -54,3 +55,4 @@ jobs:
           body: |
             Review-ready daily draft. Check the 6 files in drafts/${{ steps.rundate.outputs.today }}.
             Paste approved copy to Substack manually.
+            If files are missing, the run was cut short. Check the Actions log for the failed phase and re-run.
