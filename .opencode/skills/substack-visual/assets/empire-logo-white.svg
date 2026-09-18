@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 300" width="100%" height="100%" role="img" aria-label="EMPIRE logo white inverted">
+  <defs>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Protest+Guerrilla&amp;display=swap');
+
+      .empire-logo-white {
+        font-family: 'Protest Guerrilla', 'ProtestGuerrilla', sans-serif;
+        font-size: 170px;
+        font-weight: 400;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        fill: #FFFFFF;
+        dominant-baseline: central;
+        text-anchor: middle;
+      }
+    </style>
+  </defs>
+
+  <!-- Solid white version for black backgrounds. Matches reference-jared-moss-inverted.png. -->
+  <g transform="translate(500,150) skewX(-12) translate(-500,-150)">
+    <text x="500" y="155" class="empire-logo-white" textLength="820" lengthAdjust="spacingAndGlyphs">EMPIRE</text>
+  </g>
+</svg>

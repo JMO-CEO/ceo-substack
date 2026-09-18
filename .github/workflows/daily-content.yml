@@ -1,0 +1,50 @@
+name: Daily Content
+
+on:
+  schedule:
+    - cron: "0 13 * * *" # 7am Denver daily, UTC. GitHub may delay 5 to 15 min under load.
+  workflow_dispatch:
+
+concurrency:
+  group: daily-content
+  cancel-in-progress: false
+
+jobs:
+  draft:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    permissions:
+      id-token: write
+      contents: write
+      pull-requests: write
+      issues: write
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v6
+        with:
+          persist-credentials: false
+
+      - name: Run OpenCode content team
+        uses: anomalyco/opencode/github@latest
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+        with:
+          model: google/gemini-2.5-flash
+          prompt: |
+            You are the orchestrator for the daily Substack content pipeline in this repo.
+            Date for this run (UTC): ${{ github.run_id }}. Use folder drafts/$(date +%F).
+            Follow prompts/orchestrate.md exactly: research, ideate, create article plus 3 Notes plus visual set in parallel, then edit and write the 6-file folder drafts/YYYY-MM-DD with article-draft.md, notes-3x.md, cover.svg, cover.png, image-prompt-pack.md, video-script-pack.md, meta.json.
+            Brand lock: Protest Guerrilla headlines only. Carter One and The Last Shuriken are banned. Black #000000, navy #0A0328, purple #7D12FF.
+            Fail loudly if any file is missing. Never push secrets. Work on the checked-out files; do not push directly.
+
+      - name: Open draft PR
+        uses: peter-evans/create-pull-request@v6
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          commit-message: "draft: daily content for $(date +%F)"
+          branch: "draft/$(date +%F)"
+          delete-branch: true
+          title: "Draft: daily content $(date +%F)"
+          body: |
+            Review-ready daily draft. Check the 6 files in drafts/$(date +%F).
+            Paste approved copy to Substack manually.

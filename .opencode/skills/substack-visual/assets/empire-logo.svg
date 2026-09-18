@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 300" width="100%" height="100%" role="img" aria-label="EMPIRE logo">
+  <defs>
+    <!-- Protest Guerrilla: local OFL file at .opencode/skills/substack-visual/assets/fonts/ProtestGuerrilla-Regular.ttf, fallback to Google Fonts -->
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Protest+Guerrilla&amp;display=swap');
+
+      .empire-logo {
+        font-family: 'Protest Guerrilla', 'ProtestGuerrilla', sans-serif;
+        font-size: 170px;
+        font-weight: 400;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        fill: url(#verticalGradient);
+        dominant-baseline: central;
+        text-anchor: middle;
+      }
+    </style>
+
+    <!-- Vertical blend sampled from reference-jared-moss-primary.jpg / reference-jmoverse-v1.png: top #2D0798 to bottom #7C11FD -->
+    <linearGradient id="verticalGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#2D0798" />
+      <stop offset="35%" stop-color="#460ABA" />
+      <stop offset="65%" stop-color="#5E0DD6" />
+      <stop offset="100%" stop-color="#7C11FD" />
+    </linearGradient>
+  </defs>
+
+  <!-- Skew group matches JARED MOSS / JMOVERSE forward slant. Group wrapper avoids CSS transform-origin clipping in your draft. -->
+  <g transform="translate(500,150) skewX(-12) translate(-500,-150)">
+    <text x="500" y="155" class="empire-logo" textLength="820" lengthAdjust="spacingAndGlyphs">EMPIRE</text>
+  </g>
+</svg>

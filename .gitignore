@@ -1,0 +1,6 @@
+# Never commit secrets. Cloud runs use GitHub Secrets.
+.env
+.env.*
+*.pem
+*.key
+auth.json
