@@ -1,0 +1,1 @@
+We cap our operator intake at 100 sponsors per year. If your next deal and your capital partners fit active joint venture rules, we set up your company, bank link, and ledger together. Join the JV OS beta at https://jaredmoss.com/jv-os?utm_source=substack&utm_medium=notes&utm_campaign=jv-os-beta

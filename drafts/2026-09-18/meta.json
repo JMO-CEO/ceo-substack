@@ -1,0 +1,12 @@
+{
+  "date": "2026-09-18",
+  "model": "google/gemini-3.5-flash-lite",
+  "title": "The $500k Bank Feed Blindspot in Real Estate Partnerships",
+  "word_count": 1150,
+  "sources": [
+    "SEC Exam Priorities on Private Funds and Fee Allocation",
+    "Moschetti on Active JV Structuring",
+    "Outcome Labs on the Evolution of Real Estate Operating Systems"
+  ],
+  "status": "review-ready"
+}

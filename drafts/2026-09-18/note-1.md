@@ -1,0 +1,1 @@
+Most real estate joint ventures look buttoned up on paper and operate like a crime scene in the bank feed. Commingling partner equity with general operating overhead destroys trust in ninety days. Separate your accounts.

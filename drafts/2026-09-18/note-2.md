@@ -1,0 +1,1 @@
+When an investor asks where their money went and you point to a Dropbox folder with three PDF versions named Final_FINAL, you are already losing. Real partnerships run on connected bank feeds and immutable audit logs.
