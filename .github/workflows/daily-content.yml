@@ -24,6 +24,10 @@ jobs:
         with:
           persist-credentials: false
 
+      - name: Get run date
+        id: rundate
+        run: echo "today=$(date +%F)" >> "$GITHUB_OUTPUT"
+
       - name: Run OpenCode content team
         uses: anomalyco/opencode/github@latest
         env:
@@ -32,7 +36,7 @@ jobs:
           model: google/gemini-2.5-flash
           prompt: |
             You are the orchestrator for the daily Substack content pipeline in this repo.
-            Date for this run (UTC): ${{ github.run_id }}. Use folder drafts/$(date +%F).
+            Date for this run: ${{ steps.rundate.outputs.today }}. Use folder drafts/${{ steps.rundate.outputs.today }}.
             Follow prompts/orchestrate.md exactly: research, ideate, create article plus 3 Notes plus visual set in parallel, then edit and write the 6-file folder drafts/YYYY-MM-DD with article-draft.md, notes-3x.md, cover.svg, cover.png, image-prompt-pack.md, video-script-pack.md, meta.json.
             Brand lock: Protest Guerrilla headlines only. Carter One and The Last Shuriken are banned. Black #000000, navy #0A0328, purple #7D12FF.
             Fail loudly if any file is missing. Never push secrets. Work on the checked-out files; do not push directly.
@@ -41,10 +45,10 @@ jobs:
         uses: peter-evans/create-pull-request@v6
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
-          commit-message: "draft: daily content for $(date +%F)"
-          branch: "draft/$(date +%F)"
+          commit-message: "draft: daily content for ${{ steps.rundate.outputs.today }}"
+          branch: "draft/${{ steps.rundate.outputs.today }}"
           delete-branch: true
-          title: "Draft: daily content $(date +%F)"
+          title: "Draft: daily content ${{ steps.rundate.outputs.today }}"
           body: |
-            Review-ready daily draft. Check the 6 files in drafts/$(date +%F).
+            Review-ready daily draft. Check the 6 files in drafts/${{ steps.rundate.outputs.today }}.
             Paste approved copy to Substack manually.
