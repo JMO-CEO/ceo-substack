@@ -25,3 +25,4 @@
 
 ## Corrections log
 - 2026-09-18: Carter One banned, Protest Guerrilla locked. Last Shuriken replaced in plans and design-architect.
+- 2026-09-18: Cloud workflow must set git identity (ceo-substack-bot) and persist checkout credentials, or agent commits and PR pushes die with ident unknown and git 128. Run 7 proved the agent writes files fine.
