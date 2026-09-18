@@ -14,7 +14,7 @@
 - CEO meaning REV1 2026-09-16: suffering to beautiful state via creativity, Rich yellow envelope beat.
 
 ## Top hooks that worked
-- (append one line per published draft: date, hook, saves or replies)
+- 2026-09-18: The $2 Million Handshake That Has No Paper Trail, 1050 words, review-ready
 
 ## Pipeline facts
 - Public drafts repo: JMO-CEO/ceo-substack. Text model: google/gemini-3.5-flash-lite. Secret GEMINI_API_KEY must be exported as env GOOGLE_GENERATIVE_AI_API_KEY in the workflow, that is the exact name the Google provider reads. Zero image spend v1: code built SVG/PNG plus prompt packs.

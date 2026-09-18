@@ -7,13 +7,13 @@ Read To Do Today before starting any work. Move the card when done.
 - [ ] Beta onboarding pipeline checks (separate track, not daily content)
 
 ## To Do Today
-- [ ] Daily draft YYYY-MM-DD: article + 3 Notes + visual set + packs + meta, due 7am Denver
+- (empty)
 
 ## Doing in Actions
 - (empty, run moves card here on start)
 
 ## In Review PR
-- (empty, run moves card here with PR link)
+- [x] Daily draft 2026-09-18: article + 3 Notes + visual set + packs + meta
 
 ## Done Published
 - 2026-09-08 Park City spec draft (style anchor, pre-pipeline)

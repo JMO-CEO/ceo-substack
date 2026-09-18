@@ -1,0 +1,13 @@
+{
+  "date": "2026-09-18",
+  "model": "google/gemini-3.5-flash-lite",
+  "title": "The $2 Million Handshake That Has No Paper Trail",
+  "word_count_article": 1050,
+  "word_count_notes": 120,
+  "sources": [
+    "https://www.sec.gov/newsroom/press-releases/2026-exam-priorities",
+    "https://www.moschettilaw.com/real-estate-jv-vs-syndication",
+    "https://kelleyclarkelaw.com/sec-changes-2025-reg-d-private-offerings/"
+  ],
+  "status": "review-ready"
+}
