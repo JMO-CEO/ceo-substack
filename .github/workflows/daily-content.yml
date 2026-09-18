@@ -14,7 +14,6 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 15
     permissions:
-      id-token: write
       contents: write
       pull-requests: write
       issues: write
@@ -32,8 +31,10 @@ jobs:
         uses: anomalyco/opencode/github@latest
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
           model: google/gemini-2.5-flash
+          use_github_token: true
           prompt: |
             You are the orchestrator for the daily Substack content pipeline in this repo.
             Date for this run: ${{ steps.rundate.outputs.today }}. Use folder drafts/${{ steps.rundate.outputs.today }}.
