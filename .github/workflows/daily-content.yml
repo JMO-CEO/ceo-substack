@@ -49,16 +49,6 @@ jobs:
             Brand lock: Protest Guerrilla headlines only. Carter One and The Last Shuriken are banned. Black #000000, navy #0A0328, purple #7D12FF.
             Never push secrets. Work on the checked-out files; do not push directly. Partial files beat no files.
 
-      - name: Open draft PR
-        if: always()
-        uses: peter-evans/create-pull-request@v6
-        with:
-          token: ${{ secrets.GITHUB_TOKEN }}
-          commit-message: "draft: daily content for ${{ steps.rundate.outputs.today }}"
-          branch: "draft/${{ steps.rundate.outputs.today }}"
-          delete-branch: true
-          title: "Draft: daily content ${{ steps.rundate.outputs.today }}"
-          body: |
-            Review-ready daily draft. Check the 6 files in drafts/${{ steps.rundate.outputs.today }}.
-            Paste approved copy to Substack manually.
-            If files are missing, the run was cut short. Check the Actions log for the failed phase and re-run.
+      # Note: no separate PR step. The opencode CLI pushes branch
+      # opencode/dispatch-* and opens the review PR itself on every run.
+      # A backup PR step was removed after it turned green runs red.
