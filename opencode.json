@@ -1,0 +1,31 @@
+{
+  "$schema": "https://opencode.ai/config.json",
+  "instructions": ["AGENTS.md", "MEMORY.md", "BOARD.md"],
+  "permission": {
+    "skill": {
+      "*": "ask",
+      "persuasion-coach": "allow",
+      "humanize-writing": "allow",
+      "substack-visual": "allow",
+      "design-architect": "allow",
+      "workflow-builder": "allow",
+      "offer-playbook": "allow"
+    },
+    "question": "deny"
+  },
+  "agent": {
+    "orchestrator": {
+      "permission": {
+        "task": {
+          "*": "deny",
+          "researcher": "allow",
+          "ideator": "allow",
+          "article-writer": "allow",
+          "notes-writer": "allow",
+          "visual-builder": "allow",
+          "editor": "allow"
+        }
+      }
+    }
+  }
+}
