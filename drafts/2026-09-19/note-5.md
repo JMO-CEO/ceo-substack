@@ -1,0 +1,1 @@
+We built the Joint Venture Operating System so operators can manage company formation, bank verification, doc signing, and contribution ledgers in one immutable screen. Stop guessing on SEC compliance. Join our founding operator cohort: https://jaredmoss.com/jv-os?utm_source=substack&utm_medium=note&utm_campaign=jv-os

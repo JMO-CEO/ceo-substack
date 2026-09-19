@@ -1,0 +1,1 @@
+An active joint venture requires every partner to hold real operational responsibilities. Real votes before related party pay, funds routed strictly to partnership accounts, and immutable audit logs. If your partner disappears and nothing changes, you do not have a JV.

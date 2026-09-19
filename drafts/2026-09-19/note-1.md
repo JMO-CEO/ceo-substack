@@ -1,0 +1,1 @@
+Calling your LLC a joint venture in the operating agreement does not protect you from securities laws. If your capital partners write a check and wait for distributions, they are passive investors. Passive reliance makes their interest a security under the Howey Test.

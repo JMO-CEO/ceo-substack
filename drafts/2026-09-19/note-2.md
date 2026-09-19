@@ -1,0 +1,1 @@
+Sponsors skip Regulation D filings to save a few thousand dollars in legal fees upfront. That DIY approach leaves the entire deal exposed to full capital rescission when market conditions tighten. One unhappy investor can demand their money back plus interest.

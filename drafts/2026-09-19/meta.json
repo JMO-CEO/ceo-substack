@@ -1,0 +1,11 @@
+{
+  "date": "2026-09-19",
+  "model_id": "google/gemini-3.5-flash-lite",
+  "article_word_count": 1150,
+  "notes_count": 5,
+  "source_urls": [
+    "https://www.moschettilaw.com/real-estate-jv-vs-syndication",
+    "https://www.moschettilaw.com/real-estate-syndication-legal-services/"
+  ],
+  "status": "review-ready"
+}

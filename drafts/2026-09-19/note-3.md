@@ -1,0 +1,1 @@
+Most real estate partnerships fail the basic audit test. When I ask operators to show signed JV terms, connected bank accounts, and approval logs for loan draws, I get silence or a Dropbox link with three PDFs named Final_FINAL. That is not an operating system.
