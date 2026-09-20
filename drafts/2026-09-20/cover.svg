@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1456" height="816" viewBox="0 0 1456 816">
+  <!-- ceo-substack daily cover template. Replace [HOOK] and [SUBLINE] per run. EMPIRE wordmark bottom right. -->
+  <defs>
+    <radialGradient id="glow" cx="50%" cy="45%" r="60%">
+      <stop offset="0%" stop-color="#7D12FF" stop-opacity="0.45"/>
+      <stop offset="100%" stop-color="#7D12FF" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="empire" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#2D0798"/>
+      <stop offset="100%" stop-color="#7C11FD"/>
+    </linearGradient>
+  </defs>
+  <rect width="1456" height="816" fill="#000000"/>
+  <rect width="1456" height="816" fill="url(#glow)"/>
+  <rect x="80" y="80" width="1296" height="656" rx="24" fill="#0A0328" stroke="#FFFFFF" stroke-opacity="0.1"/>
+  <text x="160" y="300" font-family="Protest Guerrilla, Impact, sans-serif" font-size="96" fill="#FFFFFF" letter-spacing="2">TEXT DRAWS KILL SPECS</text>
+  <text x="160" y="380" font-family="Montserrat, Arial, sans-serif" font-size="32" fill="#D0D2D8" letter-spacing="4">THE $3M SPEC BANK TRAP</text>
+  <text x="1456" y="700" text-anchor="end" font-family="Protest Guerrilla, Impact, sans-serif" font-size="64" fill="url("url(#empire)")" letter-spacing="2" transform="translate(0,0)">EMPIRE&#160;</text>
+</svg>

@@ -1,0 +1,1 @@
+Operators spend hundreds of hours selecting quartz countertops and steel beams. They spend zero hours designing the financial controls that protect the capital funding those fixtures. Dark bank feeds kill more deals than bad framing.
