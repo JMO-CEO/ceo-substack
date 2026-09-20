@@ -1,0 +1,1 @@
+We watched a four partner luxury spec stall for eight months over $60k in disputed draw allocations right before closing. The finishes were stunning. The partnership litigation was fatal. Good accounting beats great staging every time.

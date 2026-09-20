@@ -1,0 +1,1 @@
+We built the Joint Venture Operating System to give every capital partner live bank visibility, pre-signed approval gates, and immutable audit logs from day one. We cap our beta at 100 operators. Join the JV OS beta at https://jaredmoss.com/jv-os?utm_source=substack&utm_medium=note&utm_campaign=beta

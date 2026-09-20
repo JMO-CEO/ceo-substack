@@ -1,0 +1,1 @@
+Text message approvals for $45k steel overruns do not hold up in partnership disputes. When the house sells, missing receipts and unverified draws turn into months of legal mediation that eats your profit margin.

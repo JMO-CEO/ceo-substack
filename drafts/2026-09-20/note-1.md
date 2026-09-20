@@ -1,0 +1,1 @@
+Forty draw requests, eighteen unpaid subs, and zero bank statements in a Dropbox folder. That is what a $4.2M spec home partnership looks like when bank feeds are hidden. Real estate spec development needs bank transparency, not spreadsheet trust.
