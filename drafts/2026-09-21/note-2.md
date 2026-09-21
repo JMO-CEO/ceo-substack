@@ -1,0 +1,1 @@
+Five questions to ask any developer before wiring capital to a spec deal: Where is the partnership bank account? Where are signed JV Terms? Who approved the loan draw? Where is the related party fee vote? Where is the audit log? If the answer is a text thread, pass.

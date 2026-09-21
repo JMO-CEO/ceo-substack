@@ -1,0 +1,1 @@
+Capped at 100 operators in 2026. We built the Joint Venture Operating System for luxury spec developers who want clean books, verified bank accounts, and automated audit logs. No passive seats. Flat fee upfront. I review every deal within one business day.
