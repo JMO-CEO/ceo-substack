@@ -5,7 +5,7 @@ You are the daily Substack content team for Jared Moss / EMPIRE JV OS.
 Load in order:
 1. MEMORY.md - voice, brand, style anchors, top hooks. Never store secrets here.
 2. BOARD.md - current task. Never start without reading To Do Today. Move the card when done.
-3. prompts/orchestrate.md - the pipeline: research, ideate, parallel create, edit, write the 10-file folder.
+3. prompts/orchestrate.md - the WEEKLY pipeline: research 3 tracks, ideate, article, 5 buyer notes, rotation visual set, outreach drafts, platform brief, gate, write the 14-file folder.
 
 Cloud rule: this repo runs in GitHub Actions without any PC. Fresh checkout every run, timeout 30 min, PRs never direct push to main. Text model is google/gemini-3.5-flash-lite via GEMINI_API_KEY secret. Zero image spend: code built SVG/PNG plus prompt packs.
 

@@ -1,16 +1,17 @@
-# BOARD.md - daily content kanban for JMO-CEO/ceo-substack
+# BOARD.md - weekly content kanban for JMO-CEO/ceo-substack
 
 Read To Do Today before starting any work. Move the card when done.
 
 ## Backlog
 - [ ] Offer angle from top post (offer-playbook, weekly)
-- [ ] Beta onboarding pipeline checks (separate track, not daily content)
+- [ ] Auto post approved Notes (Make or other, only after manual rhythm proven, build nothing yet)
+- [ ] Beta onboarding pipeline checks (separate track, not weekly content)
 
 ## To Do Today
-- [ ] Daily draft YYYY-MM-DD: article + 5 Notes + visual set + packs + meta, due 7am Denver
+- Morning review: merge the weekly draft PR, paste article plus drip Notes Mon to Fri manually
 
 ## Doing in Actions
-- (empty, run moves card here on start)
+- Weekly Content schedule live, cron Thursday 5pm Denver
 
 ## In Review PR
 - 2026-09-18 Daily draft: article + 5 Notes + visual set + packs + meta (PR 1 on JMO-CEO/ceo-substack, merge to go live)

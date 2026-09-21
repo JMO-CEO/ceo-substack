@@ -1,4 +1,4 @@
-"""Render cover.svg to cover.png for the daily draft. Zero API spend.
+"""Render cover.svg to cover.png for the weekly draft. Zero API spend.
 Usage: python scripts/render-cover.py assets/cover-template.svg drafts/2026-09-19/cover.png
 Tries cairosvg, then rsvg-convert, then Pillow fallback with a flat brand card.
 Requires hook text already substituted into the SVG by the visual-builder agent.

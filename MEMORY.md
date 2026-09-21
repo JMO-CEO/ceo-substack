@@ -18,10 +18,12 @@
 
 ## Pipeline facts
 - Public drafts repo: JMO-CEO/ceo-substack. Text model: google/gemini-3.5-flash-lite. Secret GEMINI_API_KEY must be exported as env GOOGLE_GENERATIVE_AI_API_KEY in the workflow, that is the exact name the Google provider reads. Zero image spend v1: code built SVG/PNG plus prompt packs.
-- Cloud runbook is SOLO, one session, Task tool disabled via subagent_depth 0. Six subagent sessions exceeded 30 min on free tier (run 6 proved it). Solo run with batched tool calls and max 2 websearches fits in 30. Subagent team stays for local runs only.
-- Cloud pacing law: batch independent calls per block to cut billed requests, never delegate, max 2 websearches per run, sleep 60 on 429 max twice. Free key allows about 5 requests per minute. The upstream Gemini model-turn 400 bug (opencode issues 45359, 47034, still open) strikes retried multi-session runs hardest.
-- Job timeout is 30 min (6 sequential phases need it, run 5 proved 15 is too short). Minutes are free on the public repo. PR step runs on always() so partial drafts are preserved instead of vanishing.
-- Daily folder: drafts/YYYY-MM-DD with article-draft.md, note-1.md through note-5.md, cover.svg, cover.png, image-prompt-pack.md, video-script-pack.md, meta.json.
+- WEEKLY cadence: Thursday 5pm Denver, cron 0 23 * * 4 (4pm MST after Nov 1 unless flipped to 0 0 * * 5). Job timeout 30 min. Minutes are free on the public repo. The opencode CLI pushes branch opencode/dispatch-* and opens the review PR itself, no backup PR step exists.
+- Cloud runbook is SOLO, one session, Task tool disabled via subagent_depth 0. Solo run with batched tool calls and max 6 websearches fits in 30. Subagent team stays for local runs only.
+- Cloud pacing law: batch independent calls per block to cut billed requests, never delegate, sleep 60 on 429 max twice. Free key allows about 5 requests per minute. The upstream Gemini model-turn 400 bug (opencode issues 45359, 47034, still open) strikes retried multi-session runs hardest.
+- Rotation: ISO week mod 10 picks prompts/manual-60 source S01 to S10 (0 means S10). Every adapted image and video prompt ends with the brand overlay. Video capped at 15s.
+- Weekly folder: drafts/YYYY-MM-DD with article-draft.md, note-1.md through note-5.md (Mon Director, Tue Relator, Wed Intellectual, Thu Validator, Fri Executive, link only on note-5), cover.svg, cover.png, image-prompt-pack.md with 5 sections, video-script-pack.md 15s max, dm-pack.md drafts only, research-brief.md 3 tracks, platform-brief.md recommendations only, meta.json.
+- Hard ban: cloud runs never edit .opencode, skills, prompts, opencode.json, or workflows. Improvements go in platform-brief.md for human decision.
 
 ## Corrections log
 - 2026-09-18: Carter One banned, Protest Guerrilla locked. Last Shuriken replaced in plans and design-architect.
