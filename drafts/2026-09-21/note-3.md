@@ -1,0 +1,1 @@
+When investor cash lands in the operator's personal operating account or customer deposits bypass the entity ledger, traceability vanishes. SEC examiners and angry partners both look for the same thing: commingled funds. Keep your bank feed clean from day one.

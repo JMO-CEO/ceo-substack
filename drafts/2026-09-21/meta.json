@@ -1,0 +1,12 @@
+{
+  "date": "2026-09-21",
+  "model": "google/gemini-3.5-flash-lite",
+  "article_word_count": 1050,
+  "notes_count": 5,
+  "source_urls": [
+    "https://www.moschettilaw.com/real-estate-jv-vs-syndication",
+    "https://kelleyclarkelaw.com/sec-changes-2025-reg-d-private-offerings/",
+    "https://blog.outcomelabs.ai/2026/05/20/the-real-estate-operating-system/"
+  ],
+  "status": "review-ready"
+}

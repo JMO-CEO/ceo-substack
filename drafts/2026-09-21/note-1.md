@@ -1,0 +1,1 @@
+The most expensive asset in your luxury spec isn't the glass walls or the Sub-Zero kitchen. It's the unlinked bank account. When capital partners review draws in text threads instead of an audited ledger, trust breaks in 90 days. Link your bank and lock your terms before framing starts.
