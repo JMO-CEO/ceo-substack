@@ -14,6 +14,7 @@ Read To Do Today before starting any work. Move the card when done.
 - Weekly Content schedule live, cron Thursday 5pm Denver
 
 ## In Review PR
+- 2026-09-21 Daily draft: article + 5 Notes + visual set + packs + meta (Drafts 2026-09-21, S09 3-point lighting rotation)
 - 2026-09-18 Daily draft: article + 5 Notes + visual set + packs + meta (PR 1 on JMO-CEO/ceo-substack, merge to go live)
 
 ## Done Published
