@@ -5,6 +5,7 @@ Read To Do Today before starting any work. Move the card when done.
 ## Backlog
 - [ ] Offer angle from top post (offer-playbook, weekly)
 - [ ] Auto post approved Notes (Make or other, only after manual rhythm proven, build nothing yet)
+- [ ] Host redirect jaredmoss.com/jv-os to /empire plus /jv-os/videos to /empire/videos (human, host or registrar)
 - [ ] Beta onboarding pipeline checks (separate track, not weekly content)
 
 ## To Do Today

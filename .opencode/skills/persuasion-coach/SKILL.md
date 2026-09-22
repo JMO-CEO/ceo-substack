@@ -3,7 +3,7 @@ name: persuasion-coach
 description: >
   Write persuasive real estate content for the 5 buyer types using the 8 Core Drives
   and Cialdini influence principles. Use when writing Substack articles, Substack Notes,
-  LinkedIn posts, or any call to action to join the JV OS beta at jaredmoss.com/jv-os.
+  LinkedIn posts, or any call to action to join the JV OS beta at jaredmoss.com/empire.
   Diagnoses buyer type, selects language and proof, then drafts in Jared Moss voice.
 license: MIT
 compatibility: opencode
@@ -19,7 +19,7 @@ Voice: smart, direct, concise. Story first, then proof, then invitation. Follow 
 
 Locked CTA (use this, no mailto links):
 - Button text: Join the JV OS Beta
-- URL base: https://jaredmoss.com/jv-os
+- URL base: https://jaredmoss.com/empire
 - Add UTM per channel: `?utm_source=substack&utm_medium=note&utm_campaign=beta100` or `?utm_source=linkedin&utm_medium=post&utm_campaign=beta100` or `?utm_source=substack&utm_medium=article&utm_campaign=beta100`
 - Cap line: Capped at 100 operators in 2026. I review every deal within one business day.
 - Fit line: Tell me your next deal and your partners. We will tell you straight if it fits active JV rules.
@@ -174,7 +174,7 @@ Shape:
 4. Proof (one specific number or quote)
 5. CTA (one line plus UTM link)
 Close variants by type rotation (see section 7).
-Add at end on CTA posts: `Join the JV OS Beta: https://jaredmoss.com/jv-os?utm_source=linkedin&utm_medium=post&utm_campaign=beta100`
+Add at end on CTA posts: `Join the JV OS Beta: https://jaredmoss.com/empire?utm_source=linkedin&utm_medium=post&utm_campaign=beta100`
 Engagement line option: "Forward to your capital partner if you run specs."
 
 ### C. Article assist (Substack long form, 1,000 to 1,600 words)
@@ -191,11 +191,11 @@ After drafting, run humanize-writing self check: cut setup reveal colons, cut an
 Use mid article (short) plus end article (full). For short posts, use one line version.
 
 One line (Notes plus LinkedIn):
-Join the JV OS Beta: https://jaredmoss.com/jv-os?utm_source=[source]&utm_medium=[medium]&utm_campaign=beta100
+Join the JV OS Beta: https://jaredmoss.com/empire?utm_source=[source]&utm_medium=[medium]&utm_campaign=beta100
 
 Mid article (short):
 ---
-Running a spec or funding one? Join the JV OS Beta. Capped at 100 operators. Tell me your next deal and your partners and we will tell you straight if it fits active JV rules: https://jaredmoss.com/jv-os?utm_source=substack&utm_medium=article&utm_campaign=beta100
+Running a spec or funding one? Join the JV OS Beta. Capped at 100 operators. Tell me your next deal and your partners and we will tell you straight if it fits active JV rules: https://jaredmoss.com/empire?utm_source=substack&utm_medium=article&utm_campaign=beta100
 ---
 
 End article (full):
@@ -208,7 +208,7 @@ You get: company created, bank connected, JV Terms plus LLC operating agreement 
 
 Tell me your next deal and your partners. We will set up company, bank link, docs, and first contribution together if it fits.
 
-[Join the JV OS Beta](https://jaredmoss.com/jv-os?utm_source=substack&utm_medium=article&utm_campaign=beta100)
+[Join the JV OS Beta](https://jaredmoss.com/empire?utm_source=substack&utm_medium=article&utm_campaign=beta100)
 
 P.S. Bringing a partner? Forward this to them. Alignment before the lot purchase saves six months of pain after it.
 ---
@@ -257,7 +257,7 @@ $8.7M of craft. My first thought was who wired the money.
 Builders take surgeon capital plus neighbor capital plus sweat. Everyone smiles at closing. Then distributions stop in month three and trust breaks in 90 days.
 Protect the relationship with structure. One account. Signed terms. Votes before debt. Receipts for every move.
 Forward this to your capital partner.
-Join the JV OS Beta: https://jaredmoss.com/jv-os?utm_source=linkedin&utm_medium=post&utm_campaign=beta100
+Join the JV OS Beta: https://jaredmoss.com/empire?utm_source=linkedin&utm_medium=post&utm_campaign=beta100
 
 ### Intellectual sample (Note)
 Passive test in one line: if investors rely on your efforts for profit, it looks like a security.
@@ -268,13 +268,13 @@ Five checks fix the file: company, bank, JV Terms, LLC agreement, first contribu
 Founding 100. That is the whole 2026 cohort for JV OS.
 Built for operators running $2M to $12M specs in Promontory, Tuhaye, SkyRidge, Marcella. Reviewed by a 20 year real estate attorney who has seen where $50M deals break.
 Flat fee upfront. One screen: company, bank, docs, ledger.
-Join the JV OS Beta: https://jaredmoss.com/jv-os?utm_source=linkedin&utm_medium=post&utm_campaign=beta100
+Join the JV OS Beta: https://jaredmoss.com/empire?utm_source=linkedin&utm_medium=post&utm_campaign=beta100
 
 ### Executive sample (Note)
 One spec can hold $4M in risk with four people and zero staff.
 Lock it: debt cap in writing, fee votes before pay, distributions tied to trigger, audit log on.
 Close faster because diligence ends early.
-Join the JV OS Beta: https://jaredmoss.com/jv-os?utm_source=substack&utm_medium=note&utm_campaign=beta100
+Join the JV OS Beta: https://jaredmoss.com/empire?utm_source=substack&utm_medium=note&utm_campaign=beta100
 
 ## 10. Sources used for this skill
 

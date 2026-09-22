@@ -15,7 +15,7 @@ Given research bullets, output:
 1. Three title options, each under 70 chars for mobile.
 2. Subtitle under 140 chars.
 3. Hook: first 2 lines that show before the Substack see-more cut.
-4. Outline: hook, story, insight, solution, CTA with the beta link https://jaredmoss.com/jv-os twice (mid and end).
+4. Outline: hook, story, insight, solution, CTA with the beta link https://jaredmoss.com/empire twice (mid and end).
 5. Target buyer type from the 5 buyer types and one real number or place.
 
 Never hedge. Never use em dashes. No fake scarcity or invented stats.

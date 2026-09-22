@@ -4,7 +4,7 @@ description: >
   Turn manual tasks into automated revenue systems for JV OS.
   Use when the user reports manual work, inbox overload, landing page edits,
   beta onboarding drag, or any repeat task. First system is Gmail lead routing,
-  then landing updates for jaredmoss.com/jv-os, then beta onboarding pipeline.
+  then landing updates for jaredmoss.com/empire, then beta onboarding pipeline.
   Every workflow must name its daily or monthly revenue effect and its seat per week effect.
 license: MIT
 compatibility: opencode
@@ -62,7 +62,7 @@ prompts. Ask before deleting files or code.
 1. Gmail lead routing (first). Filters plus labels plus auto reply for JV leads.
 Done state: every JV lead tagged in under 2 minutes, Touch 10 flagged,
 daily digest in inbox, zero manual sorting.
-2. Landing update flow for jaredmoss.com/jv-os. Done state: edit to live
+2. Landing update flow for jaredmoss.com/empire. Done state: edit to live
 in one command with preview link and rollback note.
 3. Beta onboarding pipeline. Done state: apply form to five checks live
 with doc vault, bank link, and first contribution logged.

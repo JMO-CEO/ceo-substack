@@ -2,12 +2,15 @@
 
 ## Voice
 - Direct, plain, specific. Never hedge. Never use em dashes. No emojis in published copy.
-- CTA is always join the JV OS beta at https://jaredmoss.com/jv-os, mid plus end.
+- CTA is always join the JV OS beta at https://jaredmoss.com/empire, mid plus end.
 
 ## Brand
 - Headlines and wordmark: Protest Guerrilla only. Carter One banned. The Last Shuriken banned for new work.
 - Canvas Pure Black #000000, cards Dark Navy #0A0328, accent Electric Purple #7D12FF, body Soft Gray #D0D2D8.
 - EMPIRE wordmark: vertical blend #2D0798 to #7C11FD, forward slant skewX(-12) group wrapper.
+- Canonical beta URL: https://jaredmoss.com/empire (old /jv-os kept only in historical drafts, host redirect covers live traffic).
+- Sin City noir, Notes only: B&W photoreal base, one spot color per character. Jared hero purple #7D12FF, gold ally #FFBD59, villain green #00E676. Covers stay flat vector editorial.
+- Villain roster: banker with shark loans is default, otherwise cast from the article pain (solicitor, mixer, shredder, skimmer, lockjaw). Never a named human.
 
 ## Style anchors (ceo-substack examples)
 - Park City spec draft 2026-09-08: hook in socks in glass living room, who wired the money, 5 checks, socks close.
@@ -22,7 +25,7 @@
 - Cloud runbook is SOLO, one session, Task tool disabled via subagent_depth 0. Solo run with batched tool calls and max 6 websearches fits in 30. Subagent team stays for local runs only.
 - Cloud pacing law: batch independent calls per block to cut billed requests, never delegate, sleep 60 on 429 max twice. Free key allows about 5 requests per minute. The upstream Gemini model-turn 400 bug (opencode issues 45359, 47034, still open) strikes retried multi-session runs hardest.
 - Rotation: ISO week mod 10 picks prompts/manual-60 source S01 to S10 (0 means S10). Every adapted image and video prompt ends with the brand overlay. Video capped at 15s.
-- Weekly folder: drafts/YYYY-MM-DD with article-draft.md, note-1.md through note-5.md (Mon Director, Tue Relator, Wed Intellectual, Thu Validator, Fri Executive, link only on note-5), cover.svg, cover.png, image-prompt-pack.md with 5 sections, video-script-pack.md 15s max, dm-pack.md drafts only, research-brief.md 3 tracks, platform-brief.md recommendations only, meta.json.
+- Weekly folder: drafts/YYYY-MM-DD with article-draft.md, note-1.md through note-5.md (Mon Director, Tue Relator, Wed Intellectual, Thu Validator, Fri Executive, link only on note-5), cover.svg, cover.png, image-prompt-pack.md with 5 sections, video-script-pack.md 15s max, comic-pack.md arc plus panels, dm-pack.md drafts only, research-brief.md 3 tracks, platform-brief.md recommendations only, meta.json.
 - Hard ban: cloud runs never edit .opencode, skills, prompts, opencode.json, or workflows. Improvements go in platform-brief.md for human decision.
 
 ## Corrections log
