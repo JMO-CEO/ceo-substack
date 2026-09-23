@@ -2,7 +2,7 @@
 
 Source: comic-pack.md takedown scene. One video only. Brand overlay ends the prompt.
 
-Content lock: no cigarettes, cigars, pipes, vapes, alcohol, drugs, gambling, or any vice in any clip. Hero faceless by design, back to camera or face in shadow, no hat, never attach headshots to a generator. Ally is a veteran operator in his late 50s with a bright vibrant look. Spec in tests/hero-face-lock.md.
+Content lock: no cigarettes, cigars, pipes, vapes, alcohol, drugs, gambling, or any vice in any clip. Hero faceless by design, back to camera or face in shadow, no hat, never attach headshots to a generator. Ally is a veteran operator in his late 50s with a bright vibrant look. Spec in face-lock.md.
 
 ## 10s takedown (scene only, no generated text, faceless hero, single scene preferred)
 

@@ -2,7 +2,7 @@
 
 Source: comic-pack.md panels staged from S09 3 point lighting. Style line is original high contrast black and white noir illustration, never name Sin City or any franchise. All panels square 1:1 for Notes unless noted. Text to image only, no reference photos attached. Brand overlay ends every prompt.
 
-Content lock: no cigarettes, cigars, pipes, vapes, alcohol, drugs, gambling, or any vice in any panel. Face lock: hero faceless by design (back to camera or face in shadow), no hat, gray hair visible. Color placement lock: skin, hair, and hands are always grayscale, no purple tint on any body part, purple lives ONLY on costume accents and objects. Spec in tests/hero-face-lock.md.
+Content lock: no cigarettes, cigars, pipes, vapes, alcohol, drugs, gambling, or any vice in any panel. Face lock: hero faceless by design (back to camera or face in shadow), no hat, gray hair visible. Color placement lock: skin, hair, and hands are always grayscale, no purple tint on any body part, purple lives ONLY on costume accents and objects. Spec in face-lock.md.
 
 ## 1 Mon Director, Panel 1 Jared solo (WINNER Gemini, 25/25, locked as finals/panel-1-final.png)
 

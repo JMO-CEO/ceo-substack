@@ -11,7 +11,7 @@
 - Canonical beta URL: https://jaredmoss.com/empire (old /jv-os kept only in historical drafts, host redirect covers live traffic).
 - Sin City noir, Notes only: B&W photoreal base, one spot color per character. Jared hero purple #7D12FF, gold ally #FFBD59, villain green #00E676. Covers stay flat vector editorial.
 - Villain roster: banker with shark loans is default, otherwise cast from the article pain (solicitor, mixer, shredder, skimmer, lockjaw). Never a named human.
-- Content lock: no cigarettes, cigars, pipes, vapes, alcohol, drugs, gambling, or any vice in any panel or clip. Color placement lock: skin, hair, and hands always grayscale, purple ONLY on costume accents and objects, never on body parts. Hero face locked to jaredmoss.com/hero-photo.jpg: man near 50, short gray flecked hair combed back, trimmed salt and pepper goatee, no hat. Spec in drafts tests/hero-face-lock.md.
+- Content lock: no cigarettes, cigars, pipes, vapes, alcohol, drugs, gambling, or any vice in any panel or clip. Color placement lock: skin, hair, and hands always grayscale, purple ONLY on costume accents and objects, never on body parts. Hero face locked to jaredmoss.com/hero-photo.jpg: man near 50, short gray flecked hair combed back, trimmed salt and pepper goatee, no hat. Spec in the run drafts folder face-lock.md.
 
 ## Style anchors (ceo-substack examples)
 - Park City spec draft 2026-09-08: hook in socks in glass living room, who wired the money, 5 checks, socks close.

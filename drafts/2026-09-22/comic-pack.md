@@ -13,7 +13,7 @@ Lead pain: dark books and scattered docs while money moves without approval.
 Powers used (max 2): bloodhound ledger (bank connected) and binding word (JV agreement signed). Powers solve procedurally through audit log and signed vote, never by magic.
 
 Content lock: no cigarettes, cigars, pipes, vapes, alcohol, drugs, gambling, or any vice in any panel or clip. Test 1B added a cigarette unprompted, so every prompt below carries the ban explicitly.
-Face lock: every prompt with Jared carries his likeness line. Attach hero-photo.jpg as the reference image on every generation. Full spec in tests/hero-face-lock.md.
+Face lock: every prompt with Jared carries his likeness line. Never attach headshots to a generator. Full spec in face-lock.md.
 
 ## Three act beats
 
