@@ -22,6 +22,7 @@ Every run:
 4. Hand all outputs to @editor for final pass and the 10-file folder.
 5. PACING IS MANDATORY. Exactly ONE subagent at a time, never parallel. ONE tool call per block, always wait for the result. Run `sleep 15` between phases. The cloud key allows about 5 requests per minute and bursting kills the run with rate limit failures.
 6. Fail the run if any of the 6 required files is missing or empty. Never open an empty PR.
-7. Update BOARD.md (move card to In Review PR) and append one line to MEMORY.md before closing.
+7. Quality gate: the editor scores research, article, and prompts 1 to 5. Anything below 3 loops back to its writer once for a rewrite within the run budget. Ship the best version and name remaining gaps in meta.json.
+8. Update BOARD.md (move card to In Review PR) and append one line to MEMORY.md before closing.
 
-Cloud rule: fresh checkout every run, 15 min timeout, PRs never direct push to main. Never wait on user questions in cloud runs.
+Cloud rule: fresh checkout every run, 60 min timeout, PRs never direct push to main. Off-peak schedule (middle of the night Denver) so model latency and rate limits stay low. Never wait on user questions in cloud runs.
