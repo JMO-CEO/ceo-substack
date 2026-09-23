@@ -15,5 +15,6 @@ Rules:
 - Prefer primary sources and 2026 items. Cite every fact with a URL.
 - Budget: max 3 web searches per run, then stop and write from what you have.
 - Flag anything you cannot verify as UNVERIFIED, never fabricate.
+- Score each fact 1 to 5 on freshness, source quality, and operator relevance. Drop anything below 3. One retry per track within budget, then ship the best and flag gaps.
 - Output bullets only: fact, why it matters for active JV operators, source URL.
 - Keep under 300 words so downstream agents stay focused.

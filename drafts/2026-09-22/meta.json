@@ -1,0 +1,53 @@
+{
+  "article_chars": 12080,
+  "article_words": 1998,
+  "cover_png_note": "fallback flat card, cairo missing on Windows, cover.svg is final vector",
+  "date": "2026-09-22",
+  "model_text": "local-build",
+  "note_day_map": {
+    "note-1.md": "Mon Director",
+    "note-2.md": "Tue Relator",
+    "note-3.md": "Wed Intellectual",
+    "note-4.md": "Thu Validator",
+    "note-5.md": "Fri Executive"
+  },
+  "rotation_source": "S09-3point.md",
+  "sources": [
+    "https://www.kirkland.com/news/press-release/2026/09/kirkland-advises-ares-on-joint-venture-with-psp-investments",
+    "https://www.morningstar.com/news/dow-jones/202609142599/kkr-realty-income-form-joint-venture-to-own-properties-in-europe",
+    "https://www.sec.gov/answers/rule506.htm",
+    "https://www.sec.gov/education/smallbusiness/exemptofferings/rule506c",
+    "https://www.saul.com/sites/default/files/documents/2026-08/n2026_Real_Estate_Compliance_Outlook.pdf",
+    "https://fred.stlouisfed.org/series/MEDLISPRIUT",
+    "https://fred.stlouisfed.org/series/MEDLISPRI41620",
+    "https://www.evansteamutah.com/blog/utah-housing-market-2026",
+    "https://thecrereport.substack.com/p/top-10-overlooked-commercial-real",
+    "https://realtorcom.substack.com/",
+    "https://glink.substack.com/p/the-housing-markets-brutal-math-and"
+  ],
+  "status": "published",
+  "villain": "THE SHREDDER",
+  "week": 39,
+  "word_counts": {
+    "article": 1998,
+    "notes": [
+      45,
+      35,
+      47,
+      41,
+      45
+    ]
+  },
+  "published_url": "https://jaredmoss.substack.com/p/you-cant-build-an-empire-alone-the",
+  "finals_locked": [
+    "panel-1-final.png",
+    "panel-2-final.png",
+    "panel-5-final.jpg",
+    "header-final.jpg"
+  ],
+  "still_open": [
+    "panels 3 and 4 finals",
+    "clip 1 confirm",
+    "clip 2 scene-only re-run plus end card"
+  ]
+}

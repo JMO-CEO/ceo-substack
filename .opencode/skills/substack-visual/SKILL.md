@@ -121,23 +121,25 @@ One idea only. High contrast for phone feed.
 Style: [base style suffix].
 ```
 
-## 5. Video workflow (3 prompts, Gemini Veo or Kling)
+## 5. Video workflow (ONE 10 second single scene, Gemini Veo or Kling)
+
+Standard: one 10 second video max, single scene preferred (ally receipt close or one takedown beat). Multi beat 15s edits are retired until video prompting improves. End cards are always built in layout from empire-logo.png, never rendered by a video model.
 
 Step 1: End frame.
 Upload header hero. Prompt:
 ```
-Adjust this EMPIRE visual to its end state for a 3 second loop. Keep same layout, same EMPIRE wordmark, same blend #2D0798 to #7C11FD exactly.
-Change only: [one micro shift, ex: accent brightens 20 percent, checkmark stamps on ledger, arrow releases 10px].
-Keep pose and layout identical. No new objects. No face change. Subtle and restrained.
+Adjust this EMPIRE visual to its end state. Keep same layout, same EMPIRE wordmark, same blend #2D0798 to #7C11FD exactly.
+Change only: [one micro shift, ex: accent brightens 20 percent, checkmark stamps on ledger].
+Keep pose and layout identical. No new objects. No face change. No text rendered. Subtle and restrained.
 ```
 
 Step 2: Video prompt writer (give to LLM).
 ```
-Write a time stamped 3 second video prompt for [Gemini Veo / Kling] using my start frame and end frame.
-Action: [what happens, ex: purple glow breathes, gold line draws left to right].
-Timing: 0.0 to 1.0 settle, 1.0 to 2.0 shift, 2.0 to 3.0 resolve to end frame.
-Micro: breathing light, fabric or hair still, no morph.
-Style: preserve vector editorial style and brand hex codes exactly. Seamless loop. 16:9 for post, 1:1 square cut for Notes.
+Write a time stamped 10 second video prompt for [Gemini Veo / Kling] using my start frame and end frame.
+Action: [one action only, ex: slow push in while purple glow breathes].
+Timing: 0 to 3 settle, 3 to 7 shift, 7 to 10 resolve to end frame, fade to black.
+Micro: breathing light, fabric or hair still, no morph. No legible words or numbers anywhere.
+Style: hand drawn ink noir, brand hex codes exactly. 16:9 for post, 1:1 square cut for Notes.
 ```
 
 Step 3: Generate and convert.
@@ -163,6 +165,7 @@ Tied to your CEO article and JV pains, rendered with logo blend accents:
 - [ ] Contrast pass: white on black above 12:1, #7C11FD never used for small body text, gradient wordmark min 120px wide
 - [ ] Size pass: header under 500KB, Note under 600KB, GIF under 2MB, logo PNG 256x256 transparent plus 1100x220 banner exported from SVG
 - [ ] Brand pass: blend #2D0798 to #7C11FD exact, Protest Guerrilla forward slant (tops right of bottoms) matching reference files, no serif, no emoji, no em dash char in image text
+- [ ] Locks pass: faceless hero, no hat, people grayscale, purple only on costume accents, no vices, zero words letters or numbers in scenes, ally late 50s vibrant, objects standard size
 - [ ] Trust pass: one real number or place or source link, no invented stats, no fake scarcity
 - [ ] CTA pass: visual supports single beta action, does not repeat button text verbatim except takeaway box
 - [ ] Mobile pass: preview on phone, no edge text cut, first GIF frame reads as static
