@@ -15,6 +15,7 @@ Read To Do Today before starting any work. Move the card when done.
 - Weekly Content schedule live, cron Thursday 5pm Denver
 
 ## In Review PR
+- 2026-09-24 Daily draft: article + 5 Notes + comic-pack + cover + packs + dm + research + platform + meta (drafts/2026-09-24, review-ready)
 - 2026-09-18 Daily draft: article + 5 Notes + visual set + packs + meta (PR 1 on JMO-CEO/ceo-substack, merge to go live)
 - 2026-09-22 CEO REV1 run: article + 5 Notes + comic-pack + cover + packs + dm + research + platform + meta (drafts/2026-09-22, review-ready, post today)
 
