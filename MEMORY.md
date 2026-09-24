@@ -19,7 +19,7 @@
 
 ## Top hooks that worked
 - 2026-09-22: 5am garage plus 85 year old partner, CEO as Create Execute Optimize. PUBLISHED https://jaredmoss.substack.com/p/you-cant-build-an-empire-alone-the (saves and replies pending)
-- (append one line per published draft: date, hook, saves or replies)
+- 2026-09-24: Blackstone closes $30B while local operators run handshakes, The Handshake is Dead. REVIEW-READY drafts/2026-09-24.
 
 ## Pipeline facts
 - Public drafts repo: JMO-CEO/ceo-substack. Text model: google/gemini-3.5-flash-lite. Secret GEMINI_API_KEY must be exported as env GOOGLE_GENERATIVE_AI_API_KEY in the workflow, that is the exact name the Google provider reads. Zero image spend v1: code built SVG/PNG plus prompt packs.

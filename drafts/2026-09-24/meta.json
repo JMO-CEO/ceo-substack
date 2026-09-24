@@ -1,0 +1,38 @@
+{
+  "date": "2026-09-24",
+  "week": 39,
+  "rotation_source": "S09-3point.md",
+  "villain": "THE SOLICITOR",
+  "model_text": "google/gemini-3.5-flash-lite",
+  "word_counts": {
+    "article": 1013,
+    "notes": [61, 59, 54, 65, 62]
+  },
+  "note_day_map": {
+    "note-1.md": "Mon Director",
+    "note-2.md": "Tue Relator",
+    "note-3.md": "Wed Intellectual",
+    "note-4.md": "Thu Validator",
+    "note-5.md": "Fri Executive"
+  },
+  "sources": [
+    "https://www.blackstone.com/news/press-release/blackstone-announces-closing-of-global-real-estate-fund/",
+    "https://www.prologis.com/newsroom/press-releases/prologis-brookfield-joint-venture",
+    "https://www.sec.gov/answers/rule506.htm",
+    "https://www.sec.gov/education/smallbusiness/exemptofferings/rule506c",
+    "https://www.fincen.gov/boi",
+    "https://fred.stlouisfed.org/series/MEDLISPRIUT",
+    "https://fred.stlouisfed.org/series/MEDLISPRI41620",
+    "https://www.evansteamutah.com/blog/utah-housing-market-2026",
+    "https://www.trulia.com/UT/Salt_Lake_City",
+    "https://thecrereport.substack.com/p/top-10-overlooked-commercial-real",
+    "https://realtorcom.substack.com/",
+    "https://glink.substack.com/p/the-housing-markets-brutal-math-and"
+  ],
+  "scores": {
+    "research": 5,
+    "article": 5,
+    "prompts": 5
+  },
+  "status": "review-ready"
+}
