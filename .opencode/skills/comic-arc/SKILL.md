@@ -26,8 +26,8 @@ You turn Jared's weekly article into a one week comic arc in Sin City style. The
 2. Cast villain from the pain roster above. Name their scheme in one line tied to the article's facts.
 3. Write three act beats tied to the article sections: hook scene (crime discovered), proof scene (ally hands Jared the receipt), takedown scene (one power activation per check used, max two powers per arc).
 4. Assign characters to the 5 Notes per the noir casting in substack-visual: Mon Jared solo, Tue Jared plus ally, Wed proof object only, Thu ally foreground, Fri hero over villain.
-5. Write one noir image prompt per Note panel using the substack-visual Note template. Stage each panel's composition from this week's rotation source file in prompts/manual-60 (camera, lighting, staging variety), locked under the Sin City style: exactly one spot color per character.
-6. Write the 10 second single-scene video prompt: one scene only (ally receipt close preferred), fade to black, end card built in layout.
+5. Write one noir image prompt per Note panel using the substack-visual Note template. Stage each panel from this week's cinematic set in prompts/cinematic/00-noir-50-index.md (W01 locked: I05, I13, teal v3, I06, I12), one cinematic ID per panel, day mapping slot 1 Mon Jared solo, slot 2 Tue Jared plus ally, slot 3 Wed proof object only, slot 4 Thu ally foreground, slot 5 Fri hero over villain. prompts/manual-60 is fallback variety only. Scrub fedora, smoke, cards, gambling words from verbatim first, then append the image LOCK. Ally is no beanie no hat, ledger only with blank pages. Teal is shadows only with gold rim as sole color. Fog keeps hero with purple full bleed no border. Locked under the Sin City style: exactly one spot color per character.
+6. Write the complete 10 second single-scene video prompt from this week's V pick: scene plus one camera move plus speed plus duration plus purpose, plus the video LOCK, fade to black, end card built in layout. No brand words in the generator prompt.
 
 ## 3. Rules
 
@@ -35,8 +35,8 @@ You turn Jared's weekly article into a one week comic arc in Sin City style. The
 - No gore, no profanity, no real person as villain. Villains are archetypes with titles, never named humans.
 - Style line is original high contrast black and white noir illustration, hand drawn ink style, never photorealistic. Never name Sin City or any franchise.
 - People grayscale only. Purple ONLY as thin edge glow on lining seams plus small glowing objects, never on skin, hair, or hands. One spot color per character on costume accents only.
-- No cigarettes, cigars, pipes, vapes, alcohol, drugs, gambling, or any vice, ever.
-- Text ban: models render gibberish for any words. Receipts blank, shreds blank, screens abstract light lines, boards plain check marks only. Zero words, letters, or numbers in any scene.
+- No cigarettes, cigars, pipes, vapes, alcohol, drugs, gambling, cards, dice, lighters, or any vice, ever. Scrub fedora, smoke, cards, gambling trigger words from cinematic verbatim before pasting.
+- Text ban: models render gibberish for any words. Receipts blank, shreds blank, screens abstract light lines, boards plain check marks only. Zero words, letters, numbers, logos, badges, captions in any scene. Never put brand words in a generator prompt, brand type is layout only.
 - No hedging, no em dashes, no emojis in any prompt text.
 - Video is ONE 10 second single scene max. End cards built in layout, never rendered by a video model.
 - Output goes in comic-pack.md: cast sheet, three beats, 5 panel prompts, video prompt. One file, paste ready.
