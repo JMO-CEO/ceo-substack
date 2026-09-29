@@ -4,3 +4,8 @@
 *.pem
 *.key
 auth.json
+client_secret_*.json
+**/auth.json
+
+# Never commit local test renders. Finals live in drafts/YYYY-MM-DD/finals, working renders in tests/archive.
+prompts/cinematic/test/
