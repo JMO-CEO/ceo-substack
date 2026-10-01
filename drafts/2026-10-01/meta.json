@@ -1,0 +1,34 @@
+{
+  "date": "2026-10-01",
+  "week": 40,
+  "rotation_source": "W10 (Cinematic Set)",
+  "villain": "THE SHREDDER",
+  "model_text": "google/gemini-3.5-flash-lite",
+  "word_counts": {
+    "article": 1167,
+    "notes": [55, 56, 55, 51, 53]
+  },
+  "note_day_map": {
+    "note-1.md": "Mon Director",
+    "note-2.md": "Tue Relator",
+    "note-3.md": "Wed Intellectual",
+    "note-4.md": "Thu Validator",
+    "note-5.md": "Fri Executive"
+  },
+  "sources": [
+    "https://www.kirkland.com/news/press-release/2026/09/kirkland-advises-ares-on-joint-venture",
+    "https://www.morningstar.com/news/dow-jones/kkr-realty-income-form-joint-venture",
+    "https://www.sec.gov/education/smallbusiness/exemptofferings/rule506c",
+    "https://www.evansteamutah.com/blog/utah-housing-market-2026",
+    "https://fred.stlouisfed.org/series/MEDLISPRIUT",
+    "https://www.thecrereport.substack.com/p/top-10-overlooked-commercial-real",
+    "https://glink.substack.com/p/the-housing-markets-brutal-math-and",
+    "https://realtorcom.substack.com/"
+  ],
+  "scores": {
+    "research": 5,
+    "article": 5,
+    "prompts": 5
+  },
+  "status": "review-ready"
+}

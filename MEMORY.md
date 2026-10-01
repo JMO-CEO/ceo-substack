@@ -23,7 +23,7 @@
 ## Top hooks that worked
 
 * 2026-09-22: 5am garage plus 85 year old partner, CEO as Create Execute Optimize. PUBLISHED https://jaredmoss.substack.com/p/you-cant-build-an-empire-alone-the (saves and replies pending)
-* (append one line per published draft: date, hook, saves or replies)
+* 2026-10-01: Why 80% of Real Estate Joint Ventures Fail on Day One (Governance before growth, 5-check JV OS framework). (review-ready)
 
 ## Pipeline facts
 
