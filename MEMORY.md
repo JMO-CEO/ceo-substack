@@ -22,8 +22,8 @@
 
 ## Top hooks that worked
 
+* 2026-10-08: Blackstone and Digital Realty $7B JV versus local handshake specs, architecture of trust. REVIEW READY (drafts/2026-10-08)
 * 2026-09-22: 5am garage plus 85 year old partner, CEO as Create Execute Optimize. PUBLISHED https://jaredmoss.substack.com/p/you-cant-build-an-empire-alone-the (saves and replies pending)
-* (append one line per published draft: date, hook, saves or replies)
 
 ## Pipeline facts
 

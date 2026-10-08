@@ -1,0 +1,47 @@
+{
+  "date": "2026-10-08",
+  "week": 41,
+  "rotation_source": "W01 cinematic set (I05, I13, teal v3, I06, I12, V02)",
+  "villain": "SKIMMER",
+  "model_text": "google/gemini-3.5-flash-lite",
+  "article_words": 1182,
+  "article_chars": 7910,
+  "word_counts": {
+    "article": 1182,
+    "notes": [
+      56,
+      57,
+      51,
+      44,
+      61
+    ]
+  },
+  "note_day_map": {
+    "note-1.md": "Mon Director",
+    "note-2.md": "Tue Relator",
+    "note-3.md": "Wed Intellectual",
+    "note-4.md": "Thu Validator",
+    "note-5.md": "Fri Executive"
+  },
+  "sources": [
+    "https://www.blackstone.com/news/press-release/blackstone-digital-realty-data-center-jv-2026/",
+    "https://www.prologis.com/news-room/press-releases/prologis-gic-jv-expansion-2026",
+    "https://www.sec.gov/answers/rule506.htm",
+    "https://www.sec.gov/education/smallbusiness/exemptofferings/rule506c",
+    "https://www.fincen.gov/boi",
+    "https://fred.stlouisfed.org/series/MEDLISPRIUT",
+    "https://fred.stlouisfed.org/series/MEDLISPRI41620",
+    "https://www.evansteamutah.com/blog/utah-housing-market-2026",
+    "https://sweatystartup.substack.com/p/industrial-real-estate-velocity",
+    "https://fortstories.substack.com/p/capital-stack-reset-2026",
+    "https://thecrereport.substack.com/p/commercial-property-tax-shift",
+    "https://realtorcom.substack.com/",
+    "https://mcneillstout.substack.com/p/spatial-planning-2026"
+  ],
+  "scores": {
+    "research": 5,
+    "article": 5,
+    "prompts": 5
+  },
+  "status": "review-ready"
+}
