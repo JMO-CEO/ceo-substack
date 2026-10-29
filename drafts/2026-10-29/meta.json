@@ -1,0 +1,41 @@
+{
+  "date": "2026-10-29",
+  "week": 44,
+  "cinematic_week_set": "W04",
+  "image_ids": [
+    "I03",
+    "I31",
+    "I16",
+    "I15",
+    "I32"
+  ],
+  "video_id": "V04",
+  "villain": "THE SKIMMER",
+  "model_id": "google/gemini-3.5-flash-lite",
+  "article_words": 1023,
+  "article_chars": 7589,
+  "note_day_map": {
+    "note-1.md": "Mon Director",
+    "note-2.md": "Tue Relator",
+    "note-3.md": "Wed Intellectual",
+    "note-4.md": "Thu Validator",
+    "note-5.md": "Fri Executive"
+  },
+  "sources": [
+    "https://www.kirkland.com/news/press-release/2026/09/kirkland-advises-ares-on-joint-venture-with-psp-investments",
+    "https://www.sec.gov/education/smallbusiness/exemptofferings/rule506c",
+    "https://www.saul.com/sites/default/files/documents/2026-08/n2026_Real_Estate_Compliance_Outlook.pdf",
+    "https://fred.stlouisfed.org/series/MEDLISPRIUT",
+    "https://www.evansteamutah.com/blog/utah-housing-market-2026",
+    "http://christiesrealestate.com/news/press-releases/park-citys-fast-growing-christies-international-real-estate-affiliate-expands-to-salt-lake-rebrands-for-future-growth-HRLW7QFI4REBDHMLXPA7WKJ2R4",
+    "https://thecrereport.substack.com/p/top-10-overlooked-commercial-real",
+    "https://www.realtor.com/research/",
+    "https://glink.substack.com/p/the-housing-markets-brutal-math-and"
+  ],
+  "scores": {
+    "research": 5,
+    "article": 5,
+    "prompts": 5
+  },
+  "status": "review-ready"
+}
