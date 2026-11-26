@@ -23,7 +23,7 @@
 ## Top hooks that worked
 
 * 2026-09-22: 5am garage plus 85 year old partner, CEO as Create Execute Optimize. PUBLISHED https://jaredmoss.substack.com/p/you-cant-build-an-empire-alone-the (saves and replies pending)
-* (append one line per published draft: date, hook, saves or replies)
+* 2026-11-26: Handshake deals vs Blackstone $7B JV, institutional governance vs amateur risk. Review-ready.
 
 ## Pipeline facts
 
