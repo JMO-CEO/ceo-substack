@@ -1,0 +1,39 @@
+{
+  "date": "2026-11-26",
+  "iso_week": "W48",
+  "cinematic_week_set": "W08",
+  "fallback_source": null,
+  "image_ids": ["I29", "I15", "I18", "I12", "I01"],
+  "video_id": "V14",
+  "villain_name": "The Spreadsheet Broker",
+  "model_id": "google/gemini-3.5-flash-lite",
+  "article_word_count": 1072,
+  "notes_word_counts": {
+    "note-1": 42,
+    "note-2": 44,
+    "note-3": 42,
+    "note-4": 40,
+    "note-5": 41
+  },
+  "note_to_day_map": {
+    "note-1.md": "Monday - Director",
+    "note-2.md": "Tuesday - Relator",
+    "note-3.md": "Wednesday - Intellectual",
+    "note-4.md": "Thursday - Validator",
+    "note-5.md": "Friday - Executive"
+  },
+  "source_urls": [
+    "https://www.blackstone.com/news/press-releases/blackstone-digital-realty-jv-7b/",
+    "https://www.brookfield.com/news-and-insights/press-releases/brookfield-gic-logistics-jv-1-5b",
+    "https://www.sec.gov/education/smallbusiness/exemptofferings/rule506c",
+    "https://fred.stlouisfed.org/series/MEDLISPRIUT",
+    "https://altosresearch.substack.com/"
+  ],
+  "scores": {
+    "research": 5,
+    "article": 5,
+    "prompts": 5
+  },
+  "status": "review-ready",
+  "gaps": []
+}
